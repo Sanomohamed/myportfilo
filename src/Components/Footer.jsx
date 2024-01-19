@@ -60,7 +60,7 @@ const Footer = (props) => {
           gap: "2.5rem",
         }}
       >
-        {email && (
+       {email && (
           <a href={`mailto:${email}`}>
             <img src={envelopeIcon} alt="email" className="socialIcon" />
           </a>
@@ -71,22 +71,26 @@ const Footer = (props) => {
           </a>
         )}
         {gitHub && (
-          <a href={`https://github.com/${gitHub}`} target="_blank" rel="noopener noreferrer">
+          <a
+            href={`https://github.com/Sanomohamed/${gitHub}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={gitHubIcon} alt="GitHub" className="socialIcon" />
           </a>
         )}
         {instagram && (
           <a
-            href={`https://www.instagram.com/${instagram}`}
+            href={`https://www.instagram.com/mamadydjan17/${instagram}`}
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={instagramIcon} alt="Instagram" className="socialIcon" />
+            <img src={instagramIcon} alt="instagram" className="socialIcon" />
           </a>
         )}
         {linkedIn && (
           <a
-            href={`https://www.linkedin.com/in/${linkedIn}`}
+            href={`https://www.linkedin.com/in/mohamed-sano-27057423b/${linkedIn}`}
             target="_blank"
             rel="noopener noreferrer"
           >
