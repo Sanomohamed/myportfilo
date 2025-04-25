@@ -23,13 +23,27 @@
         "esbenp.prettier-vscode",
         "GitHub.copilot",
         "ms-vscode.azure-account",
-        "ms-azuretools.vscode-azurestaticwebapps"
+        "ms-azuretools.vscode-azurestaticwebapps",
+        "oderwat.indent-rainbow" 
       ],
       "settings": {
         "emmet.includeLanguages": {
           "javascript": "javascriptreact"
         },
-        "emmet.triggerExpansionOnTab": true
+        "emmet.triggerExpansionOnTab": true,
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "prettier.singleQuote": true,
+        "prettier.jsxSingleQuote": true,
+        "prettier.semi": false,
+        "prettier.trailingComma": "es5",
+        "prettier.arrowParens": "avoid",
+        "prettier.jsxBracketSameLine": true,
+        "prettier.tabWidth": 2,
+        "prettier.useTabs": false,
+        "prettier.bracketSpacing": true,
+        "prettier.htmlWhitespaceSensitivity": "ignore",
+        "prettier.proseWrap": "preserve",  
       }
     }
   },
